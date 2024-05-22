@@ -1,0 +1,26 @@
+/* publicacion.page.scss o styles.css */
+
+.toolbar-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    position: relative;
+  }
+  
+  ion-buttons.centered-back-button {
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+  
+  ion-title {
+    text-align: center;
+    width: 100%;
+  }
+  
+  ion-content {
+    border: 5px solid blue; /* Agrega un borde azul de 5px de grosor */
+  }
+  
